@@ -1,13 +1,12 @@
 import React from 'react';
+import './App.css';
 
 function App() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
+    <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
       <h1>Nickels Pressure Washing</h1>
-      <p>Expert pressure washing for driveways, patios, and more.</p>
-      <footer style={{ marginTop: '2rem', fontSize: '0.9rem', color: '#666' }}>
-        © {new Date().getFullYear()} Nickels Pressure Washing — <a href="https://nickelspressurewashing.org">nickelspressurewashing.org</a>
-      </footer>
+      <p>We clean driveways, patios, and more!</p>
+      <p>Contact us at: <a href="mailto:nickels@example.com">nickels@example.com</a></p>
     </div>
   );
 }
