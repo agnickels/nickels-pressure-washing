@@ -20,8 +20,8 @@ function App() {
 
       <section className="contact">
         <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:nickels@example.com">nickels@example.com</a></p>
-        <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+<p>Email: <a href="mailto:a.nickels08@icloud.com">a.nickels08@icloud.com</a></p>
+<p>Phone: <a href="tel:5866658135">(586) 665-8135</a></p>
       </section>
 
       <footer>
