@@ -23,6 +23,26 @@ function App() {
 <p>Email: <a href="mailto:a.nickels08@icloud.com">a.nickels08@icloud.com</a></p>
 <p>Phone: <a href="tel:5866658135">(586) 665-8135</a></p>
       </section>
+    <section className="quote-form">
+  <h2>Request a Free Quote</h2>
+  <form
+    action="https://formsubmit.co/a.nickels08@icloud.com"
+    method="POST"
+    style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '500px', margin: '0 auto' }}
+  >
+    {/* FormSubmit spam prevention */}
+    <input type="hidden" name="_captcha" value="false" />
+    <input type="hidden" name="_subject" value="New Quote Request from Website" />
+
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="tel" name="phone" placeholder="Your Phone Number" required />
+    <textarea name="message" placeholder="Describe the area(s) you'd like cleaned" rows="4" required></textarea>
+
+    <button type="submit">Send Request</button>
+  </form>
+</section>
+
 
 <div style={{ marginTop: '2rem' }}>
   <h3>Service Area</h3>
