@@ -1,7 +1,44 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   color: #222;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero {
+  background-color: #1e90ff;
+  color: white;
+  padding: 3rem 1rem;
+}
+
+.services, .contact {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
 }
